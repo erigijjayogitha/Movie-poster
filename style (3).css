@@ -1,0 +1,35 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+.hero-section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+.poster {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+.poster-card {
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.poster-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 5px;
+}
